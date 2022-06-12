@@ -1,0 +1,15 @@
+.hp__sideBarLabel {
+    cursor: pointer;
+    font-size: .875em;
+    line-height: 0.8;
+}
+
+.hp__sideBarLabel:hover {
+    color: #FF6101;
+}
+
+
+.hp__sideBarHeaderLabel {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}

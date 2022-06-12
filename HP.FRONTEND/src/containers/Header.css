@@ -1,0 +1,17 @@
+.hp__header{
+    border-bottom: 1px solid grey;
+}
+.search-bar{
+    height: 40px;
+}
+.search-icon {
+    position: absolute;
+    z-index: 3;
+    left: 15px;
+  }
+.search-bar .form-control {
+    padding-left: 2.375rem;
+    border-radius: 50px !important;
+    background-color: #EEEEEE;
+    border: none;
+}

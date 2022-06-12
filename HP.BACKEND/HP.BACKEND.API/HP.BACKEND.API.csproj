@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HP.BACKEND.BUSINESS\HP.BACKEND.BUSINESS.csproj" />
+    <ProjectReference Include="..\HP.BACKEND.COMMON\HP.BACKEND.COMMON.csproj" />
+    <ProjectReference Include="..\HP.BACKEND.ENTITIES\HP.BACKEND.ENTITIES.csproj" />
+    <ProjectReference Include="..\HP.BACKEND.REPOSITORY\HP.BACKEND.REPOSITORY.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
