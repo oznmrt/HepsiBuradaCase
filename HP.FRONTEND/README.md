@@ -4,9 +4,9 @@ Package Management : Yarn
 
 React Bootstrap - Fontawesome 
 
-In the project directory, you can run:
-
 ## Available Scripts
+
+In the project directory, you can run:
 
 ### `yarn start`
 
