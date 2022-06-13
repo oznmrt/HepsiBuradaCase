@@ -10,8 +10,7 @@ export const AppContextProvider = (props) => {
     return (
         <AppContext.Provider value={{pageData, setPageData,
                                      selectedSortType, setSelectedSortType,
-                                     basketProducts, setBasketProducts,
-                                     loading, setLoading}}>
+                                     basketProducts, setBasketProducts}}>
             {props.children}
         </AppContext.Provider>
     )
